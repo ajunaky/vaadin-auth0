@@ -1,0 +1,5 @@
+com/auth0/example/ProfileController.class
+com/auth0/example/DemoApplication.class
+com/auth0/example/LogoutHandler.class
+com/auth0/example/SecurityConfig.class
+com/auth0/example/HomeController.class

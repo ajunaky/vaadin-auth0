@@ -1,0 +1,9 @@
+{
+  "compatibilityMode": false,
+  "productionMode": false,
+  "npmFolder": "/Users/ajuna/code/vaadin-oauth-example",
+  "generatedFolder": "/Users/ajuna/code/vaadin-oauth-example/target/frontend",
+  "frontendFolder": "/Users/ajuna/code/vaadin-oauth-example/frontend",
+  "pnpm.enable": false,
+  "require.home.node": false
+}

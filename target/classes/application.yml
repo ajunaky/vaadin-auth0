@@ -1,0 +1,17 @@
+# src/main/resources/application.yml
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          auth0:
+            client-id: PXUCz87CAUPdyxIAZcjg5MvYEQ9V2Omp
+            client-secret: RF4maBQpuCmW_5xfyVXDXJA2XcNOHVKe0OpQjHhq5Ix2Fy8quxpHmrKWGw-jzkWM
+            scope:
+              - openid
+              - profile
+              - email
+        provider:
+          auth0:
+            # trailing slash is important!
+            issuer-uri: https://ajuna.us.auth0.com/

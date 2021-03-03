@@ -1,0 +1,18 @@
+<!-- src/main/resources/templates/index.html -->
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5">
+<head><title>Auth0-Vaadin-Sample</title></head>
+
+<body>
+        <div sec:authorize="!isAuthenticated()">
+            <p></p>
+            <a th:href="@{/oauth2/authorization/auth0}">"Log In!"</a>
+        </div>
+        <div sec:authorize="isAuthenticated()">
+            <p></p>
+            <p>You are logged in!</p>
+            <a th:href="@{/profile}">"View Your Profile"</a>
+            <p></p>
+            <a th:href="@{/logout}">"Log Out!"</a>
+        </div>
+    </body>
+</html>
