@@ -1,5 +1,5 @@
 # vaadin-auth0
-This is an example project demonstrating how to configure and use the Auth0 Universal Login functionality in Vaadin apps.
+This is an sample application demonstrating how to configure and use the Auth0 Universal Login functionality in Vaadin apps. This is a combination created from following the [Vaadin + OAuth tutorial](https://vaadin.com/learn/tutorials/google-login) and [Auth0 Java Spring Boot QuickStarts](https://auth0.com/docs/quickstart/webapp/java-spring-boot) step by step.
 
 ## Configuration
 
@@ -39,8 +39,8 @@ Open http://localhost:3000/ in your browser.
 
 ## More Information
 
-- [Vaadin + OAuth tutorial](https://vaadin.com/learn/tutorials/google-login)
+- [Vaadin + OAuth tutorial**](https://vaadin.com/learn/tutorials/google-login)
+- [Auth0 Java Spring Boot QuickStart**](https://auth0.com/docs/quickstart/webapp/java-spring-boot)
 - [Vaadin documentation](https://vaadin.com/docs)
 - [Using Vaadin and Spring](https://vaadin.com/docs/v14/flow/spring/tutorial-spring-basic.html) article
-- [Auth0 Java Spring Boot QuickStart](https://auth0.com/docs/quickstart/webapp/java-spring-boot)
-- [Auth0 documentation] (https://auth0.com/docs)
+- [Auth0 documentation](https://auth0.com/docs)
